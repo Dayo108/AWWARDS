@@ -1,0 +1,1073 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+img 
+{
+    width: 20px;
+    height: 25px;
+    padding-top: 10px;
+}
+.marquee-container {
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(237, 237, 237); /* Background color for the marquee */
+    color: rgb(33, 33, 33); /* Text color */
+    padding: 10px 0; /* Vertical padding */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+.marquee {
+    display: inline-block;
+    animation: marquee 50s linear infinite;
+    padding-left: 100%; /* Start position */
+}
+@keyframes marquee {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+.w img 
+{
+    width: 30px;
+    height: 25px;
+}
+.w
+{
+    padding: 10px 50px;
+    position: relative;
+    
+}
+.pic
+{
+    width: 50px;
+    height: 30px;
+}
+nav
+{
+    display: flex;
+    gap: 20px;
+    padding-left: 110px;
+    position: relative;
+    bottom: 35px;
+    
+    
+}
+.start
+{
+    font-family: apercu, sans-serif;
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    line-height: 30px;
+    
+}
+.inp
+{
+      padding-bottom: 8px;
+      width: fit-content;
+      border-radius: 20px;
+      
+}
+input 
+{
+    width: 200px;
+    height:40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(237, 237, 237);
+    color: rgb(46, 36, 33);
+    font-family: apercu, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal ;
+    padding: 10px 15px;
+
+}
+.pro
+{
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    padding: 10px  15px;
+
+}
+.omo
+{
+    border-radius: 10px;
+    border: 1px solid  black;
+    background-color: (237, 237, 237);
+    width: 150px;
+    height: 40px;
+    padding:10px 15px;
+}
+.user img
+{
+    width: 25px;
+    height: 35px;
+    display: none;
+}
+.ham
+{
+    width: 50px;
+    height: 30px;
+    padding: 20px;
+    display: none;
+}
+@media (max-width: 480px)
+{
+   .start
+      {
+        display: none;
+      }
+      .ham
+    {
+        display: flex;
+        position: relative;
+        bottom: 10px;
+    }
+    .w
+    {
+        position: relative;
+        bottom: 40px;
+        
+       
+    }
+    .inp
+    {
+        position: relative;
+        bottom: 45px;
+    }
+    .pro
+    {
+        display: none;
+    }
+    .omo
+    {
+        display: none;
+    }
+    .user img
+    {
+        display: flex;
+        position: relative;
+        bottom: 45px;
+    }
+}
+.container
+{
+    padding-left: 30px;
+}
+
+.containernav
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    padding-left: 10px;
+    background-color:rgb(237, 237, 237);
+    width: 1200px;
+    height: 50px;
+    border-radius: 10px;
+    
+    
+}
+.down
+{
+position: relative;
+top: 3px;
+position: flex;
+}
+.gri
+{
+   background: white;
+   border: none;
+   height: 40px;
+   width: 110px;
+   border-radius: 10px;
+   position: relative;
+   top: 5px;
+   padding-left: 20px;
+}
+.gri1
+{
+   background: white;
+   border: none;
+   height: 40px;
+   width: 90px;
+   border-radius: 10px;
+   position: relative;
+   top: 5px;
+   padding-left: 20px;
+}
+.gri2
+{
+   background: white;
+   border: none;
+   height: 40px;
+   width: 140px;
+   border-radius: 10px;
+   position: relative;
+   top: 5px;
+   padding-left: 20px;
+}
+.gri3
+{
+   background: white;
+   border: none;
+   height: 40px;
+   width: 140px;
+   border-radius: 10px;
+   position: relative;
+   top: 5px;
+   padding-left: 20px;
+}
+.gri4
+{
+   background: white;
+   border: none;
+   height: 40px;
+   width: 140px;
+   border-radius: 10px;
+   position: relative;
+   top: 5px;
+   padding-left: 20px;
+}
+.gri5
+{
+   background: white;
+   border: none;
+   height: 40px;
+   width: 140px;
+   border-radius: 10px;
+   position: relative;
+   top: 5px;
+   padding-left: 20px;
+}
+.gri6
+{
+   background: white;
+   border: none;
+   height: 40px;
+   width: 120px;
+   border-radius: 10px;
+   position: relative;
+   top: 5px;
+   padding-left: 20px;
+}
+
+
+@media (max-width: 480px)
+{
+    .containernav
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+              
+        width: 330px;
+        height: 190px;
+        padding-right: 10px;
+        position: relative;
+        grid-column-gap: 1px;
+        grid-row-gap: 1px;
+        
+        
+        
+    }
+    .gri
+    {
+        width: 170px;
+        position: relative;
+        bottom: 30px;
+        
+        
+    }
+    .gri1
+    {
+        width: 170px;
+    }
+   .gri3
+    {
+        display: none;
+    }
+    .gri4{
+        display: none;
+    }
+    .gri5
+    {
+        width: 170px;
+       
+    }
+    .gri6
+    {
+        width: 140px;
+    }
+
+
+}
+.containerword
+{
+    display: flex;
+    gap: 5px;
+    position: relative;
+    right: 100px;
+   
+}
+.otherpart
+{
+    display: flex;
+    margin-left: 300px;
+    bottom: 55px;
+
+}
+/* .word3 
+{
+    margin-left: 50px;
+    
+} */
+.word
+{
+    font-family: apercu, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    font-style: normal;
+    color: (34, 34, 34);
+}
+
+.smallbox
+{
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid black;
+  font-family: apercu, sans-serif;
+font-weight: 300;
+font-size: 16px;
+line-height: 21px;
+font-style: normal;
+color: rgb(34, 34, 34);
+}
+.box2
+{
+    position: relative;
+   
+    
+    bottom: 8px;
+}
+.word2
+{
+    font-family: apercu, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    font-style: normal;
+    color: rgb(34, 34, 34);
+}
+
+
+
+a 
+{
+    font-family: apercu, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    font-style: normal;
+    color: rgb(34, 34, 34);
+    text-decoration-color: rgb(184, 184, 184);
+}
+
+
+.para
+{
+    display: flex;
+    position: relative;
+    left: 200px;
+
+}
+/* .para p
+{
+    text-decoration: underline;
+} */
+.phone 
+{
+    display: none;
+}
+.otherpart2
+   {
+    display: none;
+   }
+
+@media (max-width: 480px)
+{
+     .word{
+        position: relative;
+        bottom: 260px;
+     }  
+     .smallbox
+     {
+        position: relative;
+        bottom: 260px;
+     }
+     .word2
+    {
+        position: relative;
+        bottom: 260px;
+    }
+
+   .word3
+   {
+    display: none;
+   }
+    .box2
+    {
+        display: none;
+}
+
+   /* .para div 
+   {
+     display: flex;
+     position: relative;
+     top: 20%;
+    
+   } */
+   .para
+   {
+     display: none; 
+   }
+    
+   
+   .phone
+   {
+    display: flex;
+    position: relative;
+    bottom: 70px;
+   }
+   .otherpart2
+   {
+    display: flex;
+    position: relative;
+    right: 100px;
+    bottom: 80px;
+   }
+  
+   .word4 a
+   {
+    
+    font-family: apercu, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    font-style: normal;
+    color: rgb(34, 34, 34);
+    text-decoration-color: rgb(184, 184, 184);
+   }
+
+   nav a
+  {
+    position: relative;
+    bottom: 20px;
+    left: 220px;
+  }   
+}
+
+.containerimg
+{
+    position: relative;
+    right: 120px;
+}
+
+.basit img
+{
+    width: 400px;
+    height: 300px;
+}
+
+
+
+
+                          
+
+.imgtext
+{
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
+  
+}
+.name img
+{
+    border-radius: 20px;
+    color: black;
+}
+.name2 img
+{
+    border-radius: 20px;
+    color: black;
+}
+.name3 img
+{
+    border-radius: 20px;
+    color: black;
+}
+
+.hm1
+{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 3px;
+    border: 1px solid rgb(184, 184, 184) ;
+    color: rgb(184, 184, 184);
+}
+.name
+{
+    font-size: apercu, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+}
+.name2
+{
+    font-size: apercu, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+    left: 250px;
+}
+.name3
+{
+    font-size: apercu, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+    left: 520px;
+}
+.hm2
+{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 3px;
+    border: 1px solid rgb(184, 184, 184) ;
+    color: rgb(184, 184, 184);
+    position: relative;
+    left: 520px;
+}
+.hm3
+{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 3px;
+    border: 1px solid rgb(184, 184, 184) ;
+    color: rgb(184, 184, 184);
+    position: relative;
+    left: 820px;
+}
+.hm1
+{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 3px;
+    border: 1px solid rgb(184, 184, 184) ;
+    color: rgb(184, 184, 184);
+    position: relative;
+    left: 235px;
+}
+.containerimgmedia
+{
+    display: none;
+}
+
+.containerimg1
+{
+    position: relative;
+    right: 120px;
+    margin-top: 40px;
+}
+
+.imagetext1
+{
+   display: flex;
+}
+
+.sec1
+{
+    font-size: apercu, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+}
+.sec2
+{
+    font-size: apercu, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+    left: 300px;
+}
+.sec3
+{
+    font-size: apercu, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+    left: 650px;
+}
+.sec1 img
+{
+    border-radius: 100%;
+}
+.sec2 img
+{
+    border-radius: 100%;
+}
+.sec3 img
+{
+    border-radius: 100%;
+}
+.containerimg2
+{
+    position: relative;
+    right: 120px;
+    margin-top: 40px;
+}
+
+.imagetext2
+{
+    display: flex;
+}
+
+.promoted 
+{
+  position: relative;
+  top: 5px;
+  left: 175px;
+  
+}
+
+.promoted p
+{
+    width: 100px;
+    height: fit-content;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 184, 184);
+    color: black;
+    font-family: apercu, sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    padding: 5px 5px;
+
+}
+.promoted2
+{
+    font-size: apercu, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+    left: 180px;
+}
+.promoted2 img
+{
+    border-radius: 100%;
+}
+.promoted3
+{
+    font-size: apercu, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+    left: 420px;
+}
+.promoted3 img
+{
+    border-radius: 100%;
+}
+.hmbox
+{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 3px;
+    border: 1px solid rgb(184, 184, 184) ;
+    color: rgb(184, 184, 184);
+    position: relative;
+    left: 410px;
+}
+.hmbox2
+{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 3px;
+    border: 1px solid rgb(184, 184, 184) ;
+    color: rgb(184, 184, 184);
+    position: relative;
+    left: 640px;
+}
+.containerimg3
+{
+    display: flex;
+    position: relative;
+    right: 120px;
+    margin-top: 40px;
+}
+.imagetext3
+{
+    display: flex;
+}
+.dev
+{
+    font-size: apercu, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+    right: 120px;
+}
+.dev img
+{
+    border-radius: 100%;
+}
+.dev2
+{
+    font-size: apercu, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+    left: 120px ;
+}
+.dev2 img
+{
+    height: 35px;
+    width: 30px;
+}
+.dev3
+{
+    font-size: apercu, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+    left: 350px;
+}
+.dev3 img
+{
+   border-radius: 100px;
+}
+
+
+.bon
+{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 3px;
+    border: 1px solid rgb(184, 184, 184) ;
+    color: rgb(184, 184, 184);
+    position: relative;
+    left: 110px;
+}
+.bon2
+{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 3px;
+    border: 1px solid rgb(184, 184, 184) ;
+    color: rgb(184, 184, 184);
+    position: relative;
+    left:340px;
+}
+.bon3
+{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 3px;
+    border: 1px solid rgb(184, 184, 184) ;
+    color: rgb(184, 184, 184);
+    position: relative;
+    left:340px ;
+}
+.bon4
+{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 3px;
+    border: 1px solid rgb(184, 184, 184) ;
+    color: rgb(184, 184, 184);
+    position: relative;
+    left: 550px;
+}
+.bon5
+{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 3px;
+    border: 1px solid rgb(184, 184, 184) ;
+    color: rgb(184, 184, 184);
+    position: relative;
+    left: 550px;
+}
+.last
+{
+    font-size: apercu, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+}
+.lastpart
+{
+    display: flex;
+    gap: 170px;
+    align-items: center;
+    
+}
+.lastpart2
+{
+    display: flex;
+    gap: 190px;
+    align-items: center;
+    
+}
+.val
+{
+    display: flex;
+    gap: 10px;
+    margin-left: 850px;
+   position: relative;
+   bottom: 50px;
+}
+.conf
+{
+    color: rgb(184, 184, 184);
+    font-size: apercu, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+.conf2
+{
+    font-size: apercu, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: black;
+    /* text-decoration: underline; */
+}
+.conf2 a
+{
+    color: black;
+    text-decoration: underline black;
+}
+.w1
+{
+    padding: 8px 50px;
+    position: relative;
+    
+}
+
+
+
+
+@media (max-width:480px) {
+    .containerimg
+    {
+        display: none;
+    }
+    .containerimg1
+    {
+        display: none;
+    }
+    .containerimg2
+    {
+        display: none;
+    }
+    .containerimg3
+    {
+        display: none;
+    }
+    .imgtext
+    {
+        display: none ;
+    }
+    .imagetext1
+    {
+        display: none ;
+    }
+    .imagetext2
+    {
+        display: none ;
+    }
+    .imagetext3
+    {
+        display: none ;
+    }
+    .val
+    {
+        display: none;
+    }
+    .w1
+    {
+        display: none;
+    }
+    .lastpart
+    {
+        display: none;
+    }
+    .lastpart2
+    {
+        display: none;
+    }
+    .containerimgmedia
+    {
+    display: inline;
+   
+
+    }
+    .media img
+    {
+        width: 350px;
+        height: 300px;
+       padding-right: 10px;
+       margin-top: -60px;
+      
+    }
+    .namemedia1
+    {
+            font-size: apercu, sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 15px;
+     }
+     .namemedia1 img
+     {
+        border-radius: 20px;
+        color: black;
+     }
+     .namemediaspecial p
+     {
+       
+        width: 100px;
+        height: fit-content;
+        border-radius: 5px;
+        border: 1px solid rgb(184, 184, 184);
+        color: black;
+        font-family: apercu, sans-serif;
+        font-size: 15px;
+        font-weight: 400px;
+        padding: 5px 5px;
+    
+     }
+     .namemediaspecial
+    {
+        padding-left: 230px;
+    }
+     .mm1
+     {
+        width: fit-content;
+        height: fit-content;
+        border-radius: 3px;
+        border: 1px solid rgb(184, 184, 184) ;
+        color: rgb(184, 184, 184);
+        position: relative;
+        left: 300px;
+        bottom:20px;
+     }
+     .media1 img
+    {
+        width: 350px;
+        height: 300px;
+       padding-right: 10px;
+    }
+     
+    #shift
+     {
+        width: fit-content;
+        height: fit-content;
+        border-radius: 3px;
+        border: 1px solid rgb(184, 184, 184) ;
+        color: rgb(184, 184, 184);
+        position: relative;
+        left: 250px;
+        bottom:20px;
+     }
+     .shift 
+     {
+        width: fit-content;
+        height: fit-content;
+        border-radius: 3px;
+        border: 1px solid rgb(184, 184, 184) ;
+        color: rgb(184, 184, 184);
+        position: relative;
+        left: 300px;
+        bottom:40px;
+     }
+     .stop
+     {
+        display: flex;
+        gap: 100px;
+     }
+     .stop1
+     {
+        padding-left: 200px;
+        font-size: apercu, sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 15px;
+     }
+     .nyc
+     {
+        border: none;
+        width: 350px;
+        height: 50px;
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+     }
+     .next
+     {
+        position: relative;
+        top: 20px;
+        margin-left: 20px;
+     }
+     .next2
+     {
+        position: relative;
+        left: 150px;
+     }
+     .next3
+     {
+        position: relative;
+        top: 2px;
+        right: 50px;
+        
+     }
+     .next3 a
+     {
+        font-size: apercu, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        color: black;
+        text-decoration: underline black;
+     }
+     .dot
+     {
+        text-decoration: dotted;
+     }
+
+
+    
+    
+    
+}
