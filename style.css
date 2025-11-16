@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     
+    
 }
 
 
@@ -145,11 +146,13 @@ input
         display: flex;
         position: relative;
         bottom: 10px;
+        left: 20px;
     }
     .w
     {
         position: relative;
         bottom: 40px;
+        left: 20px;
         
        
     }
@@ -157,6 +160,7 @@ input
     {
         position: relative;
         bottom: 45px;
+        left:70px ;
     }
     .pro
     {
@@ -171,6 +175,7 @@ input
         display: flex;
         position: relative;
         bottom: 45px;
+        left: 150px;
     }
 }
 .container
@@ -184,7 +189,8 @@ input
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     padding-left: 10px;
     background-color:rgb(237, 237, 237);
-    width: 1200px;
+    width: 100%;
+    max-width:1200px;
     height: 50px;
     border-radius: 10px;
     
@@ -282,13 +288,14 @@ position: flex;
         display: grid;
         grid-template-columns: 1fr 1fr ;
         grid-template-rows: 1fr 1fr 1fr;
-              
-        width: 330px;
+        padding-left: 25px;
+        padding-top: 10px;    
+        width:400px;
         height: 190px;
-        padding-right: 10px;
         position: relative;
         grid-column-gap: 1px;
         grid-row-gap: 1px;
+        margin-left: 30PX;
         
         
         
@@ -456,18 +463,20 @@ a
    }
     
    
-   .phone
+   /* .phone
    {
     display: flex;
     position: relative;
     bottom: 70px;
-   }
+   } */
    .otherpart2
    {
     display: flex;
     position: relative;
     right: 100px;
     bottom: 80px;
+    justify-content: center;
+    align-items: center;
    }
   
    .word4 a
@@ -482,12 +491,12 @@ a
     text-decoration-color: rgb(184, 184, 184);
    }
 
-   nav a
+   /* nav a
   {
     position: relative;
     bottom: 20px;
     left: 220px;
-  }   
+  }    */
 }
 
 .containerimg
@@ -942,16 +951,20 @@ a
     .containerimgmedia
     {
     display: inline;
+    /* position: relative;
+    right: -50px; */
    
 
     }
     .media img
     {
         width: 350px;
+        /* max-width:350px; */
         height: 300px;
-       padding-right: 10px;
-       margin-top: -60px;
-      
+    }
+    .media,.media1
+    {
+    margin-left: 50px;
     }
     .namemedia1
     {
@@ -959,6 +972,7 @@ a
             font-weight: 700;
             font-size: 15px;
             line-height: 15px;
+            margin-left: 60px;
      }
      .namemedia1 img
      {
@@ -1003,8 +1017,8 @@ a
      
     #shift
      {
-        width: fit  -content;
-        height: fit-content;
+        width: 35px;
+        height: 20px;
         border-radius: 3px;
         border: 1px solid rgb(184, 184, 184) ;
         color: rgb(184, 184, 184);
@@ -1026,21 +1040,24 @@ a
      .stop
     {
         display: flex;
-        gap: 160px;
+        gap: 200px;
+        padding-left: 50px;
     }
      .stop-one
     {
        display: flex;
-       gap: 170px;
+       gap: 210px;
+        padding-left: 50px;
     }
     .stop-two
     {
        display: flex;
-       gap: 140px;
+       gap: 170px;
+        padding-left: 50px;
     }
      .stop1
      {
-        padding-left: 120px;
+        padding-left: 170px;
         font-size: apercu, sans-serif;
         font-weight: 700;
         font-size: 15px;
@@ -1056,20 +1073,15 @@ a
      }
      .next
      {
-        position: relative;
-        top: 20px;
-        margin-left: 20px;
+        padding-left: 100px;
      }
      .next2
      {
-        position: relative;
-        left: 150px;
+         padding-left: 150px;
      }
      .next3
      {
-        position: relative;
-        top: 2px;
-        right: 50px;
+        padding-left: 100px;
         
      }
      .next3 a
@@ -1084,6 +1096,7 @@ a
      .dot
      {
         text-decoration: dotted;
+         padding-left: 70px;
      }
 
 
